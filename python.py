@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 def get_your_live(name, age):
 # Запишим введеный текст в память
 your_live = str(input("Where are you live: "))
@@ -7,7 +10,6 @@ if your_live.isalpha():
     print(f"This is {name}\n"
           f"It is {age}\n"
           f"(S)he live in {your_live}")
-    input("")
     # Если есть другие символы - вернем к вводу текста
 else:
     get_your_live(name, age)
